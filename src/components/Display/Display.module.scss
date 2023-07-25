@@ -1,0 +1,19 @@
+.display {
+  min-width: 50%;
+  img {
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+    height: 100%;
+    width: 100%;
+    @media only screen and (max-width: 1000px) {
+      border-top-right-radius: 2%;
+      border-bottom-left-radius: 0;
+
+    }
+  }
+  // @media only screen and (max-width: 1000px) {
+  //  min-height: 100%;
+
+  // }
+  
+}

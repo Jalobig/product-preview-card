@@ -1,0 +1,11 @@
+.button {
+    width: 100%;
+    border: none;
+    background-color: var(--color-primary);
+    color: var(--white);
+    border-radius: .5rem;
+    transition: all .3s;
+    &:hover{
+        background-color: darken(#3c8067, 15%);
+    }
+}

@@ -1,0 +1,52 @@
+.product {
+  margin: 1rem 2rem;
+}
+.paragraph {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  @media only screen and (max-width:375px) {
+    font-size: 0.78rem;
+  }
+}
+.heading--1 {
+  font-family: var(--font-style-secondary);
+  font-size: 2rem;
+  line-height: 1;
+  color: var(--very-dark-blue);
+  @media only screen and (max-width:375px) {
+    font-size: 1.8rem;
+  }
+}
+.heading--3 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+.price {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+  &__full {
+    display: inline-block;
+    margin-left: 1rem;
+    text-decoration: line-through;
+  }
+  &__rebate {
+    color: var(--color-primary);
+    font-family: var(--font-style-secondary);
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+}
+.align-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    margin-right: .5rem ;
+}
+.button-text {
+  font-weight: 700;
+}
