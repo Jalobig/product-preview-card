@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution][https://github.com/Jalobig/product-preview-card]
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Live Site URL: [Live site URL](https://Jalobig.github.io/product-preview-card/)
 
 ## My process
 
