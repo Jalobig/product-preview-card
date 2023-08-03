@@ -7,5 +7,6 @@
     transition: all .3s;
     &:hover{
         background-color: darken(#3c8067, 15%);
+        cursor: pointer;
     }
 }
